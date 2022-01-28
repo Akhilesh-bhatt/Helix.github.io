@@ -1,0 +1,37 @@
+.main-footer {
+    color: white;
+    background-color: rgb(255, 0, 255);
+    padding-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  .my{
+      background-color: rgb(255, 0, 255);
+  }
+  .my2{
+      font-size: 1.2rem;
+      color: white;
+  }
+  .my2i{
+      font-size: 1.2rem;
+      color: white;
+      text-decoration: none;
+  }
+  .my2i:hover{
+      font-size: 1.2rem;
+      color: yellow;
+      text-decoration: none;
+    }
+    .my2fi{
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+    .my2fi:hover{
+        color: yellow;
+      
+      font-size: 1.2rem;
+      text-decoration: none;
+  }
