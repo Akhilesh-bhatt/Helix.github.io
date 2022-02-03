@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Footer.css"
+import "./Footer.module.css"
 
 const Footer = () => {
     return(
@@ -33,12 +33,12 @@ const Footer = () => {
     <div className="container">
   <footer className="py-3">
     <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-      <li className="nav-item my2i"><a href="#" className="px-2"><i className="fab fa-instagram my2i"></i></a></li>
-      <li className="nav-item my2i"><a href="#" className="px-2"><i className="fab fa-youtube my2i"></i></a></li>
-      <li className="nav-item my2i"><a href="#" className="px-2"><i className="fab fa-linkedin-in my2i"></i></a></li>
+      <li className="nav-item my2i"><a href="#" className="px-2"><i className="fab fa-instagram my2i"style={{color:'white'}}></i></a></li>
+      <li className="nav-item my2i"><a href="#" className="px-2"><i className="fab fa-youtube my2i"style={{color:'white'}}></i></a></li>
+      <li className="nav-item my2i"><a href="#" className="px-2"><i className="fab fa-linkedin-in my2i"style={{color:'white'}}></i></a></li>
       
     </ul>
-    <p className="text-center my2">Made with ❤ by <a href="#" className="px-2 my2fi">C-Helix</a></p>
+    <p className="text-center my2" style={{color:'white'}}>Made with ❤ by <a href="#" className="px-2 my2fi">C-Helix</a></p>
   </footer>
     </div>
     

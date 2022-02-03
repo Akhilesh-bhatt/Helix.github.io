@@ -1,0 +1,12 @@
+{
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "files.autoSave": "afterDelay",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggest.shareSuggestSelections": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "editor.foldingImportsByDefault": true
+}
