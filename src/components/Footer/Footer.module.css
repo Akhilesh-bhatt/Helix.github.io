@@ -7,6 +7,13 @@
     width: 100%;
     font-size: 1.3rem;
   }
+
+  .py-3{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.3rem;
+  }
   .my{
       background-color: rgb(231, 231, 231);
   }

@@ -5,44 +5,42 @@ import Image from './BagroundImages/5039684.jpg';
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer';
 import './App.css'
+import Faq from './Faq';
+import Container from '@mui/material/Container';
+import Bolg from './Pages/Bolg';
+import Landing from './Pages/Landing';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import Crousel from './components/Crousel';
 
-// const useStyles=makeStyles((theme)=>({
-//   main:{
-//     minHeight:'100vh',
-//     backgroundImage:`url(${Image})`,
-//     backgroundRepeat:'no-repeat',
-//     backgroundSize:'cover',
-//   }
-// }));
+
 
 function App() {
-  // const classes=useStyles();
   return (
     <>
       <div className="App" style={{
         minHeight: '100vh',
         backgroundImage: `url(${Image})`,
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: 'repeat',
         backgroundSize: 'cover',
-        zIndex: '1'
+        zIndex: '1',
+        color: 'white',
       }}>
+        <BrowserRouter>
         <Navbar />
-        <div className="page-container">
-          <div className="content-wrap">
-          </div>
-          <Footer />
-        </div>
+          <Routes>
+            <Route exact path="/" element={<Landing />} />
+            <Route exact path="Blog/*" element={<Bolg />} />
+          </Routes>
+        <Footer />
+        </BrowserRouter>
       </div>
     </>
   );
 }
 
 export default App;
-
-// style={{
-//   minHeight: '100vh',
-//   backgroundImage: `url(${Image})`,
-//   backgroundRepeat: 'no-repeat',
-//   backgroundSize: 'cover',
-//   zIndex: '1'
-// }}
